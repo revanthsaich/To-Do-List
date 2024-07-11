@@ -97,10 +97,7 @@ button:active
     padding-left: 20px;
     font-weight:600;
 }
-.action::-webkit-scrollbar
-{
-    display: none;
-}
+
 .delete
 {
     font-size: 34px;
