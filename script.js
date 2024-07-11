@@ -25,10 +25,10 @@ function add(value){
 }
 
 container.addEventListener('click', function(event) {
-    
+    if (event.target.closest('.delete')) {
         const listItem = event.target.closest('.list-item');
         if (listItem) {
-            listItem.remove(); 
+            listItem.remove();
         }
-    
+    }
 });
