@@ -98,6 +98,10 @@ button:active
     font-weight:600;
     overflow-y: scroll;
 }
+.action::-webkit-scrollbar
+{
+    display: none;
+}
 .delete
 {
     font-size: 34px;
