@@ -96,7 +96,6 @@ button:active
     text-align: left;
     padding-left: 20px;
     font-weight:600;
-    overflow: hidden;
 }
 .action::-webkit-scrollbar
 {
